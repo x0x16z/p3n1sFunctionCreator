@@ -52,7 +52,7 @@ def trajectoryStyleQuadratic():
 
 def trajectoryStyleLine():
     return f"""[].
-            {top_circle_center_y + BALL_SIZE + TRAJECTORY_MAX_Y}>y>{TRAJECTORY_MAX_SIZE}|x-{CENTER_POSITION_X}|+{top_circle_center_y + PEN_IS_LENGTH + BALL_SIZE + TRAJECTORY_MAX_Y - TRAJECTORY_MAX_SIZE * CENTER_POSITION_X}
+            {top_circle_center_y + BALL_SIZE + TRAJECTORY_MAX_Y}>y>{TRAJECTORY_MAX_SIZE}|x-{CENTER_POSITION_X}|+{top_circle_center_y + BALL_SIZE}
             """
 
 
